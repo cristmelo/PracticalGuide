@@ -1,0 +1,4 @@
+Balancing,wo_wofs,woo_wofs,wo_wfs,woo_wfs
+Imbalanced Data Set,0.527,0.597,0.521,0.599
+Over-sampled,0.673,0.703,0.671,0.69
+Under-sampled,0.669,0.668,0.674,0.68

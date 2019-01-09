@@ -1,0 +1,61 @@
+library('FSelector')
+MyData <- read.csv(file="wo_outliers.csv", header=TRUE, sep=",")
+
+drops <- c("X", "Path")
+MyData = MyData[ , !(names(MyData) %in% drops)]
+
+w_chi <- chi.squared(will_change~., MyData)
+w_infGain <- information.gain(will_change~., MyData)
+weights_SU <- symmetrical.uncertainty(will_change~., MyData)
+weights_oneR <- oneR(will_change~., MyData)
+
+> w_chi
+     attr_importance
+CBO        0.2980664
+CC         0.1538734
+DIT        0.1207072
+LCOM       0.1304816
+LOC        0.1807320
+NOC        0.0000000
+RFC        0.2166622
+WMC        0.2139724
+> weights_oneR
+     attr_importance
+CBO        0.7999490
+CC         0.7336901
+DIT        0.6814475
+LCOM       0.7038736
+LOC        0.7089704
+NOC        0.6495923
+RFC        0.7747197
+WMC        0.7693680
+> weights_SU
+     attr_importance
+CBO       0.09425636
+CC        0.03028915
+DIT       0.02152879
+LCOM      0.02951680
+LOC       0.02473156
+NOC       0.00000000
+RFC       0.06434370
+WMC       0.05240801
+> w_gainRatio
+     attr_importance
+CBO       0.11304059
+CC        0.03355840
+DIT       0.03652398
+LCOM      0.03948774
+LOC       0.03481091
+NOC       0.00000000
+RFC       0.06884054
+WMC       0.06520331
+> w_infGain
+     attr_importance
+CBO       0.13008347
+CC        0.04442103
+DIT       0.02456422
+LCOM      0.03792829
+LOC       0.03086661
+NOC       0.00000000
+RFC       0.09720735
+WMC       0.07051064
