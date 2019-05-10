@@ -37,31 +37,31 @@ Javam de Castro Machado
 
 ### Attribute Information
 
-Path: It is the ID of a class.
+**Path:** It is the ID of a class.
 
-CBO (Coupling Between Object) [2]: A class is coupled to another one if it used its member functions and/or instance variables. CBO provides the number of classes to which a given class is coupled.
+**CBO (Coupling Between Object) [2]:** A class is coupled to another one if it used its member functions and/or instance variables. CBO provides the number of classes to which a given class is coupled.
 
-CC (Cyclomatic Complexity) [3]: – It is a software metric used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. 
+**CC (Cyclomatic Complexity) [3]:** It is a software metric used to indicate the complexity of a program. It is a quantitative measure of the number of linearly independent paths through a program's source code. 
 
-DIT (Depth of Inheritance Tree) [2]: It is defined as the maximum depth of the inheritance graph of each class. 
+**DIT (Depth of Inheritance Tree) [2]:** It is defined as the maximum depth of the inheritance graph of each class. 
 
-LCOM (Lack of Cohesion on Methods) [2]: This is the number of pairs of member functions without shared instance variables, minus the number of pairs of members functions with shared instance variables.
+**LCOM (Lack of Cohesion on Methods) [2]:** This is the number of pairs of member functions without shared instance variables, minus the number of pairs of members functions with shared instance variables.
 
-LOC: Number of lines of codes. Imports and comments are not included.
+**LOC:** Number of lines of codes. Imports and comments are not included.
 
-NOC (Number Of Children) [2]: It is the number of direct descendants for each class.
+**NOC (Number Of Children) [2]:** It is the number of direct descendants for each class.
 
-RFC (Response For a Class) [2]: This is the number of methods that can potentially be executed in response to a message received by an object of that class.
+**RFC (Response For a Class) [2]:** This is the number of methods that can potentially be executed in response to a message received by an object of that class.
 
-WMC (Weighted Methods per Class) [2]: It is the number of methods of a class.
+**WMC (Weighted Methods per Class) [2]:** It is the number of methods of a class.
 
-class_frequency: It is the number of appearences that the class has through all the releases.
+**class_frequency:** It is the number of appearences that the class has through all the releases.
 
-will_change: It is the dependent variable, the indicator of a class change prone.
+**will_change:** It is the dependent variable, the indicator of a class change prone.
 
-number_of_changes: It is the number of changes that a class suffered through all the releases.
+**number_of_changes:** It is the number of changes that a class suffered through all the releases.
 
-change_probability: It is the number of changes divided by the class frequency.
+**change_probability:** It is the number of changes divided by the class frequency.
 
 
 ### References
