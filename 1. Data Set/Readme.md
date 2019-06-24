@@ -55,7 +55,7 @@ Javam de Castro Machado
 
 **WMC (Weighted Methods per Class) [2]:** It is the number of methods of a class.Range: 0 - 56 (integer)
 
-**class_frequency:** It is the number of appearences that the class has through all the releases. Range: 0 - 8 (integer)
+**class_frequency:** It is the number of appearances that the class has through all the releases. Range: 0 - 8 (integer)
 
 **will_change:** It is the dependent variable, the indicator of a class change prone. Label: 0 or 1.
 
