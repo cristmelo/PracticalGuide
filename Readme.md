@@ -1,6 +1,6 @@
 # About:
 
-This repository is related to [https://www.scitepress.org/PublicationsDetail.aspx?ID=u3hzPBlMuOc=&t=1]("A Practical Guide to Support Change-proneness Prediction");
+This repository is related to [https://www.scitepress.org/PublicationsDetail.aspx?ID=u3hzPBlMuOc=&t=1](A Practical Guide to Support Change-proneness Prediction);
 
 
 
